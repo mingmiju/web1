@@ -1,18 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Hello Miffy</title>
 <meta charset="utf-8">
+<style>
+  body {
+    margin:0;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:60px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:8px;
+  }
+  ol {
+    border-right:1px solid gray;
+    width:120px;
+    margin:0;
+    padding:20px;
+    padding-left:40px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 212px 1fr;
+  }
+</style>
 </head>
 <body>
-<font size=4px>
 <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">Hello Minju</a></li>
-  <li><a href="2.html">Hello Miffy</a></li>
-</ol>
-<br><h2>Hello Miffy</h2>
-<p><a href="https://www.youtube.com/watch?v=jjNoeYxzpa0" target="_blank">Hello Miffy,</a></p><p>안녕 미피~ 생일 축하해^^</p><img <source src="Birthday cake.jpg" width="457">
-</font>
+<div id="grid">
+  <ol>
+    <li><a href="1.html">Hello Minju</a></li>
+    <li><a href="2.html" style="color:pink">Hello Miffy</a></li>
+  </ol>
+  <div>
+    <br><h2>Hello Miffy</h2>
+    <p><a href="https://www.youtube.com/watch?v=jjNoeYxzpa0" target="_blank" style="color:pink;text-decoration:underline">Hello Miffy,</a></p><p>안녕 미피~ 생일 축하해^^</p><img <source src="Birthday cake.jpg" width="457">
+  </div>
+</div>
 </body>
 </html>
